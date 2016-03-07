@@ -37,9 +37,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
-    airbrake (5.1.0)
-      airbrake-ruby (~> 1.1)
-    airbrake-ruby (1.1.0)
     arel (6.0.3)
     ast (2.2.0)
     autoprefixer-rails (6.3.3.1)
@@ -101,6 +98,8 @@ GEM
     factory_girl_rails (4.6.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    faker (1.6.1)
+      i18n (~> 0.5)
     flutie (2.0.0)
     formulaic (0.3.0)
       activesupport
@@ -137,6 +136,16 @@ GEM
     mime-types (2.99.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
+    monetize (1.4.0)
+      money (~> 6.7)
+    money (6.7.0)
+      i18n (>= 0.6.4, <= 0.7.0)
+      sixarm_ruby_unaccent (>= 1.1.1, < 2)
+    money-rails (1.6.0)
+      activesupport (>= 3.0)
+      monetize (~> 1.4.0)
+      money (~> 6.7)
+      railties (>= 3.0)
     neat (1.7.4)
       bourbon (>= 4.0)
       sass (>= 3.3)
@@ -226,6 +235,7 @@ GEM
       json (~> 1.8)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
+    sixarm_ruby_unaccent (1.1.1)
     slop (3.6.0)
     spring (1.6.4)
     spring-commands-rspec (1.0.4)
@@ -270,7 +280,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  airbrake
   autoprefixer-rails
   awesome_print
   bourbon (~> 4.2.0)
@@ -283,12 +292,14 @@ DEPENDENCIES
   delayed_job_active_record
   dotenv-rails
   factory_girl_rails
+  faker
   flutie
   formulaic
   high_voltage
   i18n-tasks
   jquery-rails
   launchy
+  money-rails (~> 1.6)
   neat (~> 1.7.0)
   newrelic_rpm (>= 3.9.8)
   normalize-rails (~> 3.0.0)
