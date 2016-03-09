@@ -1,3 +1,6 @@
+[![Circle
+CI](https://circleci.com/gh/paulthegeek/geek_shop.svg?style=svg&circle-token=9b905c17e10dd7dfc993e5f3149037317e66471e)](https://circleci.com/gh/paulthegeek/geek_shop)
+
 # Geek shop
 
 ## Getting Started
