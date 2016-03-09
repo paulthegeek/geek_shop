@@ -1,19 +1,22 @@
+---
 en:
   date:
     formats:
-      default:
-        "%m/%d/%Y"
-      with_weekday:
-        "%a %m/%d/%y"
-
+      default: "%m/%d/%Y"
+      with_weekday: "%a %m/%d/%y"
+  products:
+    edit:
+      update_product_title: Update Product
+    form:
+      submit_product: Save
+    index:
+      product_title: Product Listings
+    new:
+      new_product_title: New Product
   time:
     formats:
-      default:
-        "%a, %b %-d, %Y at %r"
-      date:
-        "%b %-d, %Y"
-      short:
-        "%B %d"
-
+      date: "%b %-d, %Y"
+      default: "%a, %b %-d, %Y at %r"
+      short: "%B %d"
   titles:
     application: Geek shop

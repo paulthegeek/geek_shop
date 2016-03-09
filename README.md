@@ -2,6 +2,13 @@
 CI](https://circleci.com/gh/paulthegeek/geek_shop.svg?style=svg&circle-token=9b905c17e10dd7dfc993e5f3149037317e66471e)](https://circleci.com/gh/paulthegeek/geek_shop)
 
 # Geek shop
+The Geek Shop is playground online store for me to play with and learn.
+
+## Features and Technology
+
+- [x] Clearance gem for authentication
+- [ ] Stripe for the payment system
+- [ ] Importing products via CSV that runs on a background job
 
 ## Getting Started
 
@@ -20,12 +27,3 @@ After setting up, you can run the application using [Heroku Local]:
     % heroku local
 
 [Heroku Local]: https://devcenter.heroku.com/articles/heroku-local
-
-## Guidelines
-
-Use the following guides for getting things done, programming well, and
-programming in style.
-
-* [Protocol](http://github.com/thoughtbot/guides/blob/master/protocol)
-* [Best Practices](http://github.com/thoughtbot/guides/blob/master/best-practices)
-* [Style](http://github.com/thoughtbot/guides/blob/master/style)

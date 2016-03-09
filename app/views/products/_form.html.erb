@@ -1,0 +1,7 @@
+<%= simple_form_for @product do |form| %>
+  <%= form.input :name %>
+  <%= form.input :price, as: :text %>
+  <%= form.input :short_description %>
+
+  <%= form.submit t("products.form.submit_product") %>
+<% end %>

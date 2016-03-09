@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
-ruby "2.2.3"
+ruby "2.2.4"
 
-gem "airbrake"
 gem "autoprefixer-rails"
 gem "bourbon", "~> 4.2.0"
 gem "coffee-rails", "~> 4.1.0"
@@ -13,6 +12,7 @@ gem "jquery-rails"
 gem "neat", "~> 1.7.0"
 gem "newrelic_rpm", ">= 3.9.8"
 gem "normalize-rails", "~> 3.0.0"
+gem "money-rails", "~> 1.6"
 gem "pg"
 gem "puma"
 gem "rack-canonical-host"
@@ -46,6 +46,7 @@ end
 group :test do
   gem "capybara-webkit"
   gem "database_cleaner"
+  gem "faker"
   gem "formulaic"
   gem "launchy"
   gem "shoulda-matchers"
