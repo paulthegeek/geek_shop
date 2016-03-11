@@ -2,7 +2,8 @@
 CI](https://circleci.com/gh/paulthegeek/geek_shop.svg?style=svg&circle-token=9b905c17e10dd7dfc993e5f3149037317e66471e)](https://circleci.com/gh/paulthegeek/geek_shop)
 
 # Geek shop
-The Geek Shop is playground online store for me to play with and learn.
+The Geek Shop is playground online store for me to play and learn with
+ruby/rails.
 
 ## Features and Technology
 
