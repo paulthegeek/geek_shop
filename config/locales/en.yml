@@ -1,9 +1,16 @@
 ---
 en:
+  application:
+    layouts:
+      signed_in: Signed in as
+    notice: Sorry you do not have access to this page
   date:
     formats:
       default: "%m/%d/%Y"
       with_weekday: "%a %m/%d/%y"
+  homes:
+    show:
+      home_welcome: Welcome to the Geek Shop
   products:
     edit:
       update_product_title: Update Product
@@ -20,3 +27,6 @@ en:
       short: "%B %d"
   titles:
     application: Geek shop
+  users:
+    new:
+      title: Title

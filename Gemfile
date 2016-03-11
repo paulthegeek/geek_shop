@@ -4,6 +4,7 @@ ruby "2.2.4"
 
 gem "autoprefixer-rails"
 gem "bourbon", "~> 4.2.0"
+gem "clearance", "~> 1.13"
 gem "coffee-rails", "~> 4.1.0"
 gem "delayed_job_active_record"
 gem "flutie"
@@ -46,7 +47,7 @@ end
 group :test do
   gem "capybara-webkit"
   gem "database_cleaner"
-  gem "faker"
+  gem "faker", "~> 1.6"
   gem "formulaic"
   gem "launchy"
   gem "shoulda-matchers"
