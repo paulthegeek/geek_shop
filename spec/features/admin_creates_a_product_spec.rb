@@ -35,6 +35,7 @@ feature "Admin creates a product" do
 
     expect(page).to have_text t("products.new.new_product_title")
   end
+
   scenario "with only short description and redirects to create product page" do
     user = create(:user, role: :admin)
     sign_in_with user.email, user.password
