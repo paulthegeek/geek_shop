@@ -8,4 +8,10 @@ feature "Customer is redirected" do
 
     expect(page).to have_text t("homes.show.home_welcome")
   end
+
+  scenario "when navigating to a page unauthenticated" do
+    visit products_path
+
+    expect(page).to have_text t("homes.show.home_welcome")
+  end
 end
