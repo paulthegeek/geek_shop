@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   protected
 
   def authenticate_permissions!
-    if current_user.customer?
+    if current_user.nil? || current_user.customer?
       redirect_to root_path, notice: t("application.notice")
     end
   end
