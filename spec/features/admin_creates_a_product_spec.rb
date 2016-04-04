@@ -9,6 +9,7 @@ feature "Admin creates a product" do
     fill_in "product_name", with: "BvS Superman Figure"
     fill_in "product_price", with: "12.50"
     fill_in "product_short_description", with: "Awesome Superman figure"
+    check "product_publish"
     click_button t("products.form.submit_product")
 
     expect(page).to have_text "BvS Superman Figure"
